@@ -5,6 +5,7 @@ nano /root/nginx-auto-ssl.js
 
 
 Вставь в него код:
+<code>
 
 const fs = require("fs");
 const path = require("path");
@@ -79,6 +80,7 @@ getDomains().forEach(domain => {
 
 console.log("Готово! Все сайты обработаны.");
 
+</code>
 
 
 2️⃣ Дать права на выполнение
